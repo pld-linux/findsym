@@ -1,6 +1,6 @@
 Summary:	Tools to manipulate elf files
 Name:		findsym
-Version:	1.0
+Version:	1.1
 Release:	1
 License:	GPL
 Group:		Development/Tools
@@ -14,11 +14,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This program will attempt to search through all your shared libraries
-for a specific symbol.  This is useful when trying to compile
-something and the compiler complains about an undefined reference
-similar to this: /tmp/cceuy0nE.o(.text+0x7): undefined reference to
-`foo' Running "findsym foo" would try to locate the symbol foo and
-indicate what library you should be linking with.
+for a specific symbol. This is useful when trying to compile something
+and the compiler complains about an undefined reference similar to
+this: /tmp/cceuy0nE.o(.text+0x7): undefined reference to `foo' Running
+"findsym foo" would try to locate the symbol foo and indicate what
+library you should be linking with.
 
 
 %prep
@@ -27,6 +27,7 @@ indicate what library you should be linking with.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install findsym $RPM_BUILD_ROOT%{_bindir}
 
 %clean
