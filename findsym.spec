@@ -25,7 +25,7 @@ bibliotekach wspó³dzielonych. Jest przydatny, kiedy próbujemy co¶
 skompilowaæ, a kompilator narzeka na niezdefiniowny symbol w sposób
 podobny do: /tmp/cceuy0nE.o(.text+0x7): undefined reference to `foo'.
 Uruchomienie "findsym foo" spróbuje odnale¼æ symbol foo i
-zidentyfikowaæ bibliotekê, z któr± program powinien byæ linkowany.
+zidentyfikowaæ bibliotekê, z któr± program powinien byæ konsolidowany.
 
 %prep
 %setup -q -n findsym
