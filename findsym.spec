@@ -2,7 +2,7 @@ Summary:	Tools to manipulate ELF files
 Summary(pl):	Narzêdzia do obróbki plików ELF
 Name:		findsym
 Version:	1.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	http://meatloop.andover.net/~count/src/%{name}-%{version}.tar.gz
@@ -22,7 +22,7 @@ library you should be linking with.
 %description -l pl
 Ten program próbuje szukaæ okre¶lonego symbolu we wszystkich
 bibliotekach wspó³dzielonych. Jest przydatny, kiedy próbujemy co¶
-skompilowaæ, a kompilator narzeka na niezdefiniowny symbol w sposób
+skompilowaæ, a kompilator narzeka na niezdefiniowany symbol w sposób
 podobny do: /tmp/cceuy0nE.o(.text+0x7): undefined reference to `foo'.
 Uruchomienie "findsym foo" spróbuje odnale¼æ symbol foo i
 zidentyfikowaæ bibliotekê, z któr± program powinien byæ konsolidowany.
