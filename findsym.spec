@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://meatloop.andover.net/~count/src/%{name}-%{version}.tar.gz
+# Source0-md5:	406cbeb14b87b419b25593e1a4199e18
 URL:		http://freshmeat.net/projects/findsym/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
