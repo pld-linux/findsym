@@ -1,5 +1,5 @@
 Summary:	Tools to manipulate ELF files
-Summary(pl):	Narzêdzia do obróbki plików ELF
+Summary(pl.UTF-8):   NarzÄ™dzia do obrÃ³bki plikÃ³w ELF
 Name:		findsym
 Version:	1.1
 Release:	2
@@ -19,13 +19,13 @@ this: /tmp/cceuy0nE.o(.text+0x7): undefined reference to `foo' Running
 "findsym foo" would try to locate the symbol foo and indicate what
 library you should be linking with.
 
-%description -l pl
-Ten program próbuje szukaæ okre¶lonego symbolu we wszystkich
-bibliotekach wspó³dzielonych. Jest przydatny, kiedy próbujemy co¶
-skompilowaæ, a kompilator narzeka na niezdefiniowany symbol w sposób
+%description -l pl.UTF-8
+Ten program prÃ³buje szukaÄ‡ okreÅ›lonego symbolu we wszystkich
+bibliotekach wspÃ³Å‚dzielonych. Jest przydatny, kiedy prÃ³bujemy coÅ›
+skompilowaÄ‡, a kompilator narzeka na niezdefiniowany symbol w sposÃ³b
 podobny do: /tmp/cceuy0nE.o(.text+0x7): undefined reference to `foo'.
-Uruchomienie "findsym foo" spróbuje odnale¼æ symbol foo i
-zidentyfikowaæ bibliotekê, z któr± program powinien byæ konsolidowany.
+Uruchomienie "findsym foo" sprÃ³buje odnaleÅºÄ‡ symbol foo i
+zidentyfikowaÄ‡ bibliotekÄ™, z ktÃ³rÄ… program powinien byÄ‡ konsolidowany.
 
 %prep
 %setup -q -n findsym
