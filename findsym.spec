@@ -1,5 +1,5 @@
 Summary:	Tools to manipulate ELF files
-Summary(pl.UTF-8):   Narzędzia do obróbki plików ELF
+Summary(pl.UTF-8):	Narzędzia do obróbki plików ELF
 Name:		findsym
 Version:	1.1
 Release:	2
